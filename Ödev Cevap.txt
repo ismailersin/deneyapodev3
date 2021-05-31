@@ -1,0 +1,42 @@
+Kodlayıcı:
+
+	const float pi = 3.14;
+	int yaricap;
+	cin >> yaricap;
+
+	float cevre = (float) (2 * pi * yaricap);
+	float alan	= (float) (pi * pi * yaricap);
+
+	cout << "Çevre: " << cevre << endl;
+	cout << "Alan: " << alan << endl;
+
+Denetleyici:
+
+	Yanlış Olanlar
+	char xyz = '\192';
+	bool xyz = -1;
+	float xyz = 12345.12345;
+
+Kodlayıcı:
+
+	int m, n;
+	cin >> m >> n;
+	if ((~m & n) > 0)	cout << 0;
+	else			cout << 1;
+
+Analizci:
+
+	int yas1, yas2, yas3, toplam;
+	cout << "1.kişinin yaşı:";
+	cin >> yas1;
+	cout << "2.kişinin yaşı:";
+	cin >> yas2;
+	cout << "3.kişinin yaşı:";
+	cin >> yas3;
+	
+	toplam = yas1 + yas2 + yas3;
+	cout << "Toplamları: "<< toplam <<endl;
+
+Tasarlayıcı:
+
+	cout <<"\\DENEYAP\\\t Atolyesi\'ni\n\t\"cok\" ama \"cok\" seviyorum\!";
